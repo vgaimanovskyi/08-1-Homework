@@ -1,0 +1,104 @@
+body {
+    background: #282828;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Miso';
+    /* font-family: 'Lato', sans-serif; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 600px;
+    background-color: #fdde7e;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+.wrapper .col {
+    padding: 46px 100px 36px 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.wrapper .col:nth-child(2) {
+    margin: -30px 0;
+}
+.wrapper .price {
+    font-family: 'Miso Bold';
+    font-size: 70px;
+    color: #02995b;
+    text-align: center;
+}
+.wrapper .icon {
+    width: 136px;
+    height: 136px;
+    background-image: url(../images/sprite.png);
+}
+.wrapper .cup1 {
+    background-position: 0 0;
+}
+.wrapper .cup2 {
+    background-position: 136px 0;
+}
+.wrapper .cup3 {
+    background-position: 272px 0;
+}
+.wrapper .caption {
+    font-family: 'Miso Bold';
+    font-size: 56px;
+    text-align: center;
+}
+.wrapper .description {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    width: 150px;
+}
+
+  
